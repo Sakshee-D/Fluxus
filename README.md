@@ -1,50 +1,81 @@
-# Welcome to your Expo app 👋
+Ride Sharing App (FluxRide)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Description
 
-## Get started
+FluxRide is a ride-sharing application that allows users to find, create, and join rides conveniently. The app aims to provide a seamless experience for users traveling to and from IIT Indore and nearby locations.
 
-1. Install dependencies
+This project is built using React Native with Expo, featuring navigation with React Router Native.
 
-   ```bash
-   npm install
-   ```
+Features
 
-2. Start the app
+User Authentication: Login and registration system for users.
 
-   ```bash
-    npx expo start
-   ```
+Profile Management: Users can view and edit their profile details.
 
-In the output, you'll find options to open the app in a
+Ride Search & Creation: Users can search for existing rides or create new ones.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Date & Time Selection: Users can select preferred ride times.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Dashboard Overview: A simple dashboard for easy navigation.
 
-## Get a fresh project
+App Flow
+1. Landing Screen
+Displays the app logo and transitions to the login screen.
 
-When you're ready, run:
+2. Login Screen
+Users enter their credentials to log in.
+Navigation to the dashboard upon successful login.
 
-```bash
-npm run reset-project
-```
+3. Dashboard Screen
+Displays user details and ride search functionality.
+Users can:
+Select pickup and drop-off locations.
+Choose a date and time for their ride.
+Click the Search button to find existing rides.
+Click Create Ride to host a new ride.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+4. Profile Screen
+Displays user details such as:
+Name
+Email
+Rating
+Users can edit their profile details.
 
-## Learn more
+5. Ride Search Screen
+Displays a list of available rides matching the user's criteria.
 
-To learn more about developing your project with Expo, look at the following resources:
+6. Create Ride Screen
+Users can enter details to create a new ride.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Demo Video Link - https://drive.google.com/drive/folders/1ShtGHPZIDg5g035wiRBZJNRDcvnj9mtp?usp=sharing
 
-## Join the community
+- Installation & Setup
+  
+1. Clone the Repository
 
-Join our community of developers creating universal apps.
+sh
+Copy
+Edit
+git clone https://github.com/your-username/FluxRide.git
+cd FluxRide
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+2. Install Dependencies
+
+sh
+Copy
+Edit
+npm install
+
+3. Run the App
+
+sh
+Copy
+Edit
+npx expo start
+ Technologies Used
+React Native (UI Framework)
+Expo (Development Environment)
+React Router Native (Navigation)
+flask (Backend )
+MySQL (Database)
+
